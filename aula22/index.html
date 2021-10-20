@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: blanchedalmond;
+        width: 100vw;
+        height: 100vh;
+    }
+    main {
+        margin: 30px auto;
+        width: 600px;
+        height: 600px;
+        border: 1px solid #ff8A65;
+        background-color: rgb(212, 209, 203);
+        display: flex;
+        flex-direction:column;
+        
+        
+
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        background-color: blueviolet;
+        margin: 2px;
+        
+       
+    }
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(5, 29, 73);
+        font-size: 18px;
+        color: cornsilk;
+        
+             
+    }
+    .flex {
+        display: flex;
+    }
+    #content {
+        background-color: darkgreen;
+        width: 70%;
+        height: 100vw;
+    }
+    #barra {
+        background-color: rgb(156, 19, 19);
+        width: 30%;
+        height: 100vw;
+        
+    }
+    #parajustar {
+        width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+    <main>
+        <header>BLOCOS</header>
+        <div class="flex" id="parajustar">
+        <section id="content" class="flex">
+            <div></div>
+        <div></div>
+        <div></div>
+        </section>
+        <section id="barra" class="flex"></section>
+        </div>  
+        
+    </main>
+</body>
+</html>
